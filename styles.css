@@ -20,6 +20,15 @@
 .alto-contraste .nav-link{
     color: var(--alto-contraste-link);
 }
+.alto-contraste .botao-inicio,
+.alto-contraste .formulario button,
+.alto-contraste .btn-primary{
+    background-color: var(--alto-contraste-link);
+    color: var(--alto-contraste-fundo)
+}
+
+
+
 
 body {
     font-size: 1rem;

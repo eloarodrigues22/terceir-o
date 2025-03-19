@@ -6,9 +6,11 @@
     --alto-contraste-fundo: #000000;
     --alto-contraste-texto: #ffffff;
     --alto-contraste-link: #ffd700;
-}
  }
-
+.alto-contraste{
+    background-color: var(--alto-contraste-fundo);
+    color: var(--alto-contraste-texto);
+}
 body {
     font-size: 1rem;
     font-family: 'Montserrat';
